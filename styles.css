@@ -1,57 +1,4 @@
-/* 
-:root{
-    --cyan-600: hsl(192, 37%, 48%);
-    --cyan-300: hsl(192, 90%, 77%);
-
-    --purple-600: hsl(268,34%,53%);
-    --purple-300: hsl(268,100%,86%);
-
-    --slate-900: hsl(240,21%, 20%);
-    --slate-600: hsl(240,10%, 57%);
-    --slate-300: hsl(240,18%, 85%);
-
-    --white: hsl(0,0%, 98%);
-    --fontsize:16px
-
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-image: url(assets/desktop/image-footer.jpg) var(--purple-300);
-    background-size: cover;
-  }
-
-  svg{
-    align-items: center;
-  }
-
-.numberCircle {
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding: 8px;
-    background: #fff;
-    border: 2px solid #666;
-    color: #666;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-} 
-
-
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img{
-  max-width: 100%;
-  display: block;
-} 
-  */
-
-  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;900&display=swap');
 
 :root {
 
@@ -146,6 +93,7 @@ header {
   font: 900 1rem/160% 'Red Hat Display', serif;
   color: var(--dark-cyan);
   text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 /* buttons */
@@ -397,7 +345,7 @@ header {
 
 /* Media Query */
 
-/* Desktop breakpoint */
+/* Desktop */
 
 @media (max-width: 1270px) {
 
@@ -518,6 +466,7 @@ header {
   .footer-wrapper::before {
     background-image: url(assets/tablet/image-footer.jpg);
   }
+
 }
 
 /* mobile breakpoint */
