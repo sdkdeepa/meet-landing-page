@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](screenshots/screenshot.jpg)
+![Desktop](screenshots/desktop.png)
 
 <hr>
 
 Tablet            |  Mobile
 :-------------------------:|:-------------------------:
-![Tablet](screenshots/Tablet.png)  |  ![Mobile](screenshots/Mobile.png)
+![Tablet](screenshots/tablet.png)  |  ![Mobile](screenshots/mobile.png)
 
 ### Links
 
