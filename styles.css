@@ -186,7 +186,7 @@ header {
 
 .hero-img {
   max-height: 100%;
-  object-fit: contain;
+  /* object-fit: contain; */
   object-position: center;
 }
 
@@ -211,7 +211,6 @@ header {
   content: url(assets/desktop/image-hero-left.png);
   margin-bottom: 3rem;
   transition: ease 0.5s;
-  filter: saturate(0.5);
 }
 
 .hero-img-right:hover {
@@ -409,7 +408,8 @@ header {
     max-width: 25rem;
   }
 
-  .footer-wrapper .h2 {
+  .footer-wrapper .h2,
+  .h2 {
     font-size: 2rem;
   }
 
@@ -439,19 +439,11 @@ header {
     background-image: url(assets/tablet/image-footer.jpg);
     width: 100%;
   }
- .flex p {
-    font-size: 13px;
+  .flex .body-text{
+    font-size: 12.5px;
     display: -webkit-box;
     line-clamp: 2; 
     -webkit-line-clamp: 2;
-
- }
-
- h3 {
-
-  display: -webkit-box;
-  line-clamp: 1; 
-  -webkit-line-clamp: 1;
  }
 }
 
@@ -496,5 +488,10 @@ header {
     background-image: url(assets/mobile/image-footer.jpg);
     width:100%;
   }
-
+  .hero-img-left,
+  .hero-img-right,
+  .meet-logo {
+   -webkit-animation: slideIn 1s ease-in;
+    animation: slideIn 1s ease-out;
 }
+}   
