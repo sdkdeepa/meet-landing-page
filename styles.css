@@ -10,10 +10,11 @@
     --slate-300: hsl(240,18%, 85%);
 
     --white: hsl(0,0%, 98%);
+    --fontsize:16px
 
 }
 
-footer {
+/* footer {
     display: flex;
     justify-content: space-around;
     background-image: url(assets/desktop/image-footer.jpg) var(--purple-300);
@@ -34,4 +35,16 @@ footer {
     color: #666;
     text-align: center;
     font: 32px Arial, sans-serif;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  display: block;
 }
