@@ -84,6 +84,7 @@ header {
   color: var(--black);
 }
 
+
 .body-text {
   font: 500 1.125rem/144% 'Red Hat Display', serif;
   color: var(--gray);
@@ -185,7 +186,7 @@ header {
 
 .hero-img {
   max-height: 100%;
-  object-fit: contain;
+  /* object-fit: contain; */
   object-position: center;
 }
 
@@ -210,7 +211,6 @@ header {
   content: url(assets/desktop/image-hero-left.png);
   margin-bottom: 3rem;
   transition: ease 0.5s;
-  filter: saturate(0.5);
 }
 
 .hero-img-right:hover {
@@ -363,7 +363,6 @@ header {
     padding-bottom: 4.375rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    /* width: 100%; */
   }
 
   .hero-img-mobile:hover {
@@ -430,11 +429,22 @@ header {
 
 /* Tablet breakpoint */
 
-@media (max-width: 900px) {
-  .h1,
+@media (max-width: 1024px) {
+  .h1, 
   .gradient-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
+
+  .footer-wrapper::before {
+    background-image: url(assets/tablet/image-footer.jpg);
+    width: 100%;
+  }
+  .flex .body-text{
+    font-size: 12.5px;
+    display: -webkit-box;
+    line-clamp: 2; 
+    -webkit-line-clamp: 2;
+ }
 }
 
 @media (max-width: 800px) {
@@ -455,7 +465,7 @@ header {
     font-size: 1rem;
   }
 
-  .pb-42 {
+  .group {
     padding-bottom: 2.25rem;
   }
 
@@ -476,5 +486,12 @@ header {
   }
   .footer-wrapper::before {
     background-image: url(assets/mobile/image-footer.jpg);
+    width:100%;
   }
+  .hero-img-left,
+  .hero-img-right,
+  .meet-logo {
+   -webkit-animation: slideIn 1s ease-in;
+    animation: slideIn 1s ease-out;
 }
+}   
