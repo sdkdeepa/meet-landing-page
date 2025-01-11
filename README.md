@@ -35,7 +35,7 @@ Tablet            |  Mobile
 
 ### Links
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://sdkdeepa.github.io/meet-landing-page/))
 
 ### Resources
 - https://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle
